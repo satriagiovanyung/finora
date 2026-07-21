@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-finora-bg: #081626;
+  --color-finora-surface: #112A45;
+  --color-finora-card: #183452;
+  --color-finora-primary: #00D4C5;
+  --color-finora-primary-hover: #00B9AC;
+  --color-finora-text: #FFFFFF;
+  --color-finora-text-secondary: #94A3B8;
+
+  /* Border Radius */
+  --radius-finora: 24px;
+
+  /* Shadows */
+  --shadow-finora-soft: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  
+  body {
+    background-color: var(--color-finora-bg);
+    color: var(--color-finora-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden; 
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
