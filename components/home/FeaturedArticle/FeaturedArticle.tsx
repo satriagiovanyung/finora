@@ -54,8 +54,8 @@ export default function FeaturedArticle() {
             </h2>
 
             <p className="line-clamp-2 text-sm text-[#94A3B8]">
-              {article.content[0].paragraphs[0]}
-            </p>
+  {article.content?.[0]?.paragraphs?.[0] ?? ""}
+</p>
 
             <div className="mt-2 flex w-fit items-center gap-1.5 rounded-xl bg-[#00D4C5] px-4 py-2 text-sm font-semibold text-[#081626]">
               Baca Sekarang
