@@ -38,7 +38,7 @@ export default function CategoryList() {
               transition={{ 
                 duration: 0.4, 
                 delay: 0.05 * index, 
-                ease: "easeOut" 
+                ease: "easeOut" as const
               }}
               className="group flex items-center justify-between rounded-[24px] border border-[rgba(255,255,255,0.08)] bg-[#112A45]/40 p-5 backdrop-blur-sm transition-all hover:bg-[#112A45] hover:border-[#00D4C5]/30 active:scale-[0.98]"
             >

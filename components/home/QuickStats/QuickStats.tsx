@@ -22,7 +22,7 @@ export default function QuickStats() {
             transition={{ 
               duration: 0.5, 
               delay: 0.1 * index, 
-              ease: "easeOut" 
+              ease: "easeOut" as const
             }}
             className="flex flex-col items-center justify-center gap-2 rounded-[24px] border border-[rgba(255,255,255,0.05)] bg-[#112A45]/40 py-4 backdrop-blur-sm"
           >
