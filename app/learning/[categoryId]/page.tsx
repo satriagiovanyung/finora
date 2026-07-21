@@ -74,9 +74,7 @@ export default function CategoryDetailsPage() {
       {category.title}
     </h2>
 
-    <p className="mt-2 max-w-md text-sm text-slate-300">
-      {category.description}
-    </p>
+
   </div>
 </div>
 
