@@ -90,7 +90,10 @@ export default function Hero() {
             }`}
           >
             <div className={`flex h-7 w-7 items-center justify-center rounded-full ${item.bg}`}>
-              <item.icon className={`h-3.5 w-3.5 ${item.color}`} />
+             {(() => {
+  const Icon = item.icon as any;
+  return <Icon className={`h-3.5 w-3.5 ${item.color}`} />;
+})()}
             </div>
             <span className="text-[9px] font-medium leading-tight text-white">{item.label}</span>
           </div>
