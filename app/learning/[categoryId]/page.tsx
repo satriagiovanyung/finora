@@ -79,10 +79,6 @@ export default function CategoryDetailsPage() {
 </div>
 
 
-        <p className="mb-6 text-sm leading-7 text-slate-300">
-          {category.description}
-        </p>
-
         <div className="space-y-5">
 
           {category.materials.map((item, index) => {
