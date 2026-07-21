@@ -145,7 +145,7 @@ export default function GlosariumPage() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 0.98, backgroundColor: "#162D4A" }} // Efek interaktif
-              transition={{ delay: index * 0.02, type: "spring", stiffness: 100 }}
+             transition={{ delay: index * 0.02, duration: 0.3 }}
               className="rounded-2xl border border-white/10 bg-[#112A45]/80 p-5 cursor-pointer transition-colors"
             >
               <div className="mb-2 flex items-center justify-between">

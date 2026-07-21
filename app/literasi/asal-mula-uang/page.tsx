@@ -27,7 +27,7 @@ export default function AsalMulaUangDashboard() {
 
   const itemVariants = {
     hidden: { opacity: 0, x: -20 },
-    show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 100 } }
+    show: { opacity: 1, x: 0, transition: { duration: 0.3 } }
   };
 
   return (

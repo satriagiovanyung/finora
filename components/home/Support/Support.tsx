@@ -15,7 +15,7 @@ const Support = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-50px" }}
-        transition={{ type: 'spring', stiffness: 100, damping: 20 }}
+      transition={{ duration: 0.3 }}
         className="relative overflow-hidden rounded-[24px] border border-finora-border bg-gradient-to-br from-finora-card to-finora-surface p-6 shadow-finora-soft"
       >
         {/* Ornamen Visual Latar Belakang */}
