@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, DollarSign, Github, Mail, Users } from "lucide-react";
+import { Heart, DollarSign, Mail, Users } from "lucide-react";
 
 export default function Dukung() {
   const supportOptions = [
