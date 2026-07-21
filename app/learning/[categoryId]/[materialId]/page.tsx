@@ -91,7 +91,7 @@ export default function ArticlePage({
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut"as const }}
+          transition={{ duration: 0.5,  }}
         >
           {/* HERO */}
 <div className="relative mb-8 h-56 overflow-hidden rounded-3xl">

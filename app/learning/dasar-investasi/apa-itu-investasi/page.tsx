@@ -16,7 +16,7 @@ export default function ArticlePage() {
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut"as const }}
+          transition={{ duration: 0.5,  }}
         >
           {/* Badge & Metadata */}
           <div className="mt-6 mb-4">
